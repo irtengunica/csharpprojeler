@@ -1,0 +1,51 @@
+﻿Build started 10.05.2017 19:49:46.
+     1>Project "C:\Users\okul\Desktop\odeee\sinifmantigi\Win32Project1\Win32Project1\Win32Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D "WIN32" /D _DEBUG /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp
+         MyForm.cpp
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(144): error C2882: 'System' : illegal use of namespace identifier in expression
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(144): error C2228: left of '.IO' must have class/struct/union
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(144): error C2228: left of '.Ports' must have class/struct/union
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(144): error C2228: left of '.SerialPort' must have class/struct/union
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(144): error C2228: left of '.GetPortNames' must have class/struct/union
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(144): error C2228: left of '.Length' must have class/struct/union
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(146): error C2228: left of '.Items' must have class/struct/union
+                 type is 'System::Windows::Forms::ComboBox ^'
+                 did you intend to use '->' instead?
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(146): error C2228: left of '.Add' must have class/struct/union
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(146): error C2882: 'System' : illegal use of namespace identifier in expression
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(146): error C2228: left of '.IO' must have class/struct/union
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(146): error C2228: left of '.Ports' must have class/struct/union
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(146): error C2228: left of '.SerialPort' must have class/struct/union
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(146): error C2228: left of '.GetPortNames' must have class/struct/union
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(151): error C2228: left of '.PortName' must have class/struct/union
+                 type is 'System::IO::Ports::SerialPort ^'
+                 did you intend to use '->' instead?
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(151): error C2228: left of '.Text' must have class/struct/union
+                 type is 'System::Windows::Forms::ComboBox ^'
+                 did you intend to use '->' instead?
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(152): error C2228: left of '.Text' must have class/struct/union
+                 type is 'System::Windows::Forms::Label ^'
+                 did you intend to use '->' instead?
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(153): error C2228: left of '.Open' must have class/struct/union
+                 type is 'System::IO::Ports::SerialPort ^'
+                 did you intend to use '->' instead?
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(156): warning C4832: token '.' is illegal after UDT 'System::Convert'
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::Convert'
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(156): error C2275: 'System::Convert' : illegal use of this type as an expression
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::Convert'
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(156): error C2228: left of '.ToInt32' must have class/struct/union
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(156): error C2228: left of '.Text' must have class/struct/union
+                 type is 'System::Windows::Forms::TextBox ^'
+                 did you intend to use '->' instead?
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(157): error C2065: 'byte' : undeclared identifier
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(157): error C2059: syntax error : ']'
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(158): error C2228: left of '.Write' must have class/struct/union
+                 type is 'System::IO::Ports::SerialPort ^'
+                 did you intend to use '->' instead?
+     1>c:\users\okul\desktop\odeee\sinifmantigi\win32project1\win32project1\MyForm.h(158): error C2065: 'b' : undeclared identifier
+     1>Done Building Project "C:\Users\okul\Desktop\odeee\sinifmantigi\Win32Project1\Win32Project1\Win32Project1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.42
