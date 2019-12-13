@@ -1,0 +1,5 @@
+C:\Users\okul\Desktop\odeee\sinifmantigi\ConsoleApplication11\ConsoleApplication11\bin\Debug\ConsoleApplication11.exe
+C:\Users\okul\Desktop\odeee\sinifmantigi\ConsoleApplication11\ConsoleApplication11\bin\Debug\ConsoleApplication11.pdb
+C:\Users\okul\Desktop\odeee\sinifmantigi\ConsoleApplication11\ConsoleApplication11\obj\Debug\ConsoleApplication11.exe
+C:\Users\okul\Desktop\odeee\sinifmantigi\ConsoleApplication11\ConsoleApplication11\obj\Debug\ConsoleApplication11.pdb
+C:\Users\okul\Desktop\odeee\sinifmantigi\ConsoleApplication11\ConsoleApplication11\obj\Debug\ConsoleApplication11.csprojResolveAssemblyReference.cache
