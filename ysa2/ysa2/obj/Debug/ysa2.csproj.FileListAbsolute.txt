@@ -1,0 +1,5 @@
+C:\Users\okul\Desktop\odeee\sinifmantigi\ysa2\ysa2\obj\Debug\ysa2.csprojResolveAssemblyReference.cache
+C:\Users\okul\Desktop\odeee\sinifmantigi\ysa2\ysa2\bin\Debug\ysa2.exe
+C:\Users\okul\Desktop\odeee\sinifmantigi\ysa2\ysa2\bin\Debug\ysa2.pdb
+C:\Users\okul\Desktop\odeee\sinifmantigi\ysa2\ysa2\obj\Debug\ysa2.exe
+C:\Users\okul\Desktop\odeee\sinifmantigi\ysa2\ysa2\obj\Debug\ysa2.pdb

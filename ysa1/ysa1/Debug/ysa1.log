@@ -1,0 +1,20 @@
+﻿Build started 14.10.2018 17:46:15.
+     1>Project "C:\Users\okul\Desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_LIB" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ysa1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ysa1.cpp
+         ysa1.cpp
+     1>c:\users\okul\desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.cpp(9): warning C4091: '' : ignored on left of 'float' when no variable is declared
+     1>c:\users\okul\desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.cpp(9): error C2143: syntax error : missing ';' before '['
+     1>c:\users\okul\desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.cpp(9): error C3409: empty attribute block is not allowed
+     1>c:\users\okul\desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.cpp(9): error C2146: syntax error : missing ';' before identifier 'inputs'
+     1>c:\users\okul\desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.cpp(9): error C2065: 'inputs' : undeclared identifier
+     1>c:\users\okul\desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.cpp(10): warning C4091: '' : ignored on left of 'float' when no variable is declared
+     1>c:\users\okul\desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.cpp(10): error C2143: syntax error : missing ';' before '['
+     1>c:\users\okul\desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.cpp(10): error C3409: empty attribute block is not allowed
+     1>c:\users\okul\desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.cpp(10): error C2146: syntax error : missing ';' before identifier 'weights'
+     1>c:\users\okul\desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.cpp(10): error C2065: 'weights' : undeclared identifier
+     1>Done Building Project "C:\Users\okul\Desktop\odeee\sinifmantigi\ysa1\ysa1\ysa1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.81
