@@ -1,0 +1,5 @@
+C:\Users\okul\Desktop\odeee\sinifmantigi\ekranitara\ekranitara\bin\Debug\ekranitara.exe
+C:\Users\okul\Desktop\odeee\sinifmantigi\ekranitara\ekranitara\bin\Debug\ekranitara.pdb
+C:\Users\okul\Desktop\odeee\sinifmantigi\ekranitara\ekranitara\obj\Debug\ekranitara.exe
+C:\Users\okul\Desktop\odeee\sinifmantigi\ekranitara\ekranitara\obj\Debug\ekranitara.pdb
+C:\Users\okul\Desktop\odeee\sinifmantigi\ekranitara\ekranitara\obj\Debug\ekranitara.csprojResolveAssemblyReference.cache

@@ -1,0 +1,131 @@
+﻿Build started 09.05.2018 14:36:17.
+     1>Project "C:\Users\okul\Desktop\odeee\sinifmantigi\ConsoleApplication17\ConsoleApplication16\ConsoleApplication16.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include\opencv2 /IC:\opencv\build\include\opencv /IC:\opencv\build\include /Zi /nologo /W3 /WX- /sdl- /Od /D "WIN32" /D _DEBUG /D _CONSOLE /D "_LIB" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\ConsoleApplication16.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include\opencv2 /IC:\opencv\build\include\opencv /IC:\opencv\build\include /Zi /nologo /W3 /WX- /sdl- /Od /D "WIN32" /D _DEBUG /D _CONSOLE /D "_LIB" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\ConsoleApplication16.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ConsoleApplication16.cpp
+         ConsoleApplication16.cpp
+     1>ConsoleApplication16.cpp(6): warning C4627: '#include <opencv2/highgui/highgui.hpp>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>ConsoleApplication16.cpp(7): warning C4627: '#include <opencv2/imgproc/imgproc.hpp>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>ConsoleApplication16.cpp(8): warning C4627: '#include <cmath>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>ConsoleApplication16.cpp(9): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>ConsoleApplication16.cpp(16): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(16): error C2065: 'Point' : undeclared identifier
+     1>ConsoleApplication16.cpp(16): error C2146: syntax error : missing ')' before identifier 'pt1'
+     1>ConsoleApplication16.cpp(16): error C2059: syntax error : ')'
+     1>ConsoleApplication16.cpp(17): error C2143: syntax error : missing ';' before '{'
+     1>ConsoleApplication16.cpp(17): error C2447: '{' : missing function header (old-style formal list?)
+     1>ConsoleApplication16.cpp(28): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(28): error C2065: 'Mat' : undeclared identifier
+     1>ConsoleApplication16.cpp(28): error C2065: 'im' : undeclared identifier
+     1>ConsoleApplication16.cpp(28): error C2059: syntax error : 'const'
+     1>ConsoleApplication16.cpp(28): error C2039: 'string' : is not a member of 'std'
+     1>ConsoleApplication16.cpp(28): error C2039: 'vector' : is not a member of 'std'
+     1>ConsoleApplication16.cpp(29): error C2143: syntax error : missing ';' before '{'
+     1>ConsoleApplication16.cpp(29): error C2447: '{' : missing function header (old-style formal list?)
+     1>ConsoleApplication16.cpp(45): error C3861: 'cvNamedWindow': identifier not found
+     1>ConsoleApplication16.cpp(47): error C2065: 'CvCapture' : undeclared identifier
+     1>ConsoleApplication16.cpp(47): error C2065: 'capture' : undeclared identifier
+     1>ConsoleApplication16.cpp(47): error C3861: 'cvCaptureFromCAM': identifier not found
+     1>ConsoleApplication16.cpp(50): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(50): error C2065: 'Mat' : undeclared identifier
+     1>ConsoleApplication16.cpp(50): error C2146: syntax error : missing ';' before identifier 'src'
+     1>ConsoleApplication16.cpp(50): error C2065: 'src' : undeclared identifier
+     1>ConsoleApplication16.cpp(50): error C2065: 'capture' : undeclared identifier
+     1>ConsoleApplication16.cpp(50): error C3861: 'cvQueryFrame': identifier not found
+     1>ConsoleApplication16.cpp(51): error C2065: 'src' : undeclared identifier
+     1>ConsoleApplication16.cpp(51): error C2228: left of '.empty' must have class/struct/union
+                 type is 'unknown-type'
+     1>ConsoleApplication16.cpp(55): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(55): error C2065: 'Mat' : undeclared identifier
+     1>ConsoleApplication16.cpp(55): error C2146: syntax error : missing ';' before identifier 'gray'
+     1>ConsoleApplication16.cpp(55): error C2065: 'gray' : undeclared identifier
+     1>ConsoleApplication16.cpp(56): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(56): error C2065: 'src' : undeclared identifier
+     1>ConsoleApplication16.cpp(56): error C2065: 'gray' : undeclared identifier
+     1>ConsoleApplication16.cpp(56): error C2065: 'CV_BGR2GRAY' : undeclared identifier
+     1>ConsoleApplication16.cpp(56): error C3861: 'cvtColor': identifier not found
+     1>ConsoleApplication16.cpp(59): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(59): error C2065: 'Mat' : undeclared identifier
+     1>ConsoleApplication16.cpp(59): error C2146: syntax error : missing ';' before identifier 'bw'
+     1>ConsoleApplication16.cpp(59): error C2065: 'bw' : undeclared identifier
+     1>ConsoleApplication16.cpp(60): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(60): error C2065: 'gray' : undeclared identifier
+     1>ConsoleApplication16.cpp(60): error C2065: 'bw' : undeclared identifier
+     1>ConsoleApplication16.cpp(60): error C3861: 'Canny': identifier not found
+     1>ConsoleApplication16.cpp(63): error C2039: 'vector' : is not a member of 'std'
+     1>ConsoleApplication16.cpp(63): error C2065: 'vector' : undeclared identifier
+     1>ConsoleApplication16.cpp(63): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(63): error C2065: 'Point' : undeclared identifier
+     1>ConsoleApplication16.cpp(63): error C2059: syntax error : '>'
+     1>ConsoleApplication16.cpp(64): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(64): error C2065: 'bw' : undeclared identifier
+     1>ConsoleApplication16.cpp(64): error C2228: left of '.clone' must have class/struct/union
+                 type is 'unknown-type'
+     1>ConsoleApplication16.cpp(64): error C2065: 'contours' : undeclared identifier
+     1>ConsoleApplication16.cpp(64): error C2065: 'CV_RETR_EXTERNAL' : undeclared identifier
+     1>ConsoleApplication16.cpp(64): error C2065: 'CV_CHAIN_APPROX_SIMPLE' : undeclared identifier
+     1>ConsoleApplication16.cpp(64): error C3861: 'findContours': identifier not found
+     1>ConsoleApplication16.cpp(66): error C2039: 'vector' : is not a member of 'std'
+     1>ConsoleApplication16.cpp(66): error C2065: 'vector' : undeclared identifier
+     1>ConsoleApplication16.cpp(66): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(66): error C2065: 'Point' : undeclared identifier
+     1>ConsoleApplication16.cpp(66): error C2065: 'approx' : undeclared identifier
+     1>ConsoleApplication16.cpp(67): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(67): error C2065: 'Mat' : undeclared identifier
+     1>ConsoleApplication16.cpp(67): error C2146: syntax error : missing ';' before identifier 'dst'
+     1>ConsoleApplication16.cpp(67): error C2065: 'dst' : undeclared identifier
+     1>ConsoleApplication16.cpp(67): error C2065: 'src' : undeclared identifier
+     1>ConsoleApplication16.cpp(67): error C2228: left of '.clone' must have class/struct/union
+                 type is 'unknown-type'
+     1>ConsoleApplication16.cpp(69): error C2065: 'contours' : undeclared identifier
+     1>ConsoleApplication16.cpp(69): error C2228: left of '.size' must have class/struct/union
+                 type is 'unknown-type'
+     1>ConsoleApplication16.cpp(73): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(73): error C2065: 'contours' : undeclared identifier
+     1>ConsoleApplication16.cpp(73): error C2065: 'approx' : undeclared identifier
+     1>ConsoleApplication16.cpp(73): error C3861: 'approxPolyDP': identifier not found
+     1>ConsoleApplication16.cpp(73): error C3861: 'Mat': identifier not found
+     1>ConsoleApplication16.cpp(73): error C3861: 'arcLength': identifier not found
+     1>ConsoleApplication16.cpp(76): error C2039: 'fabs' : is not a member of 'std'
+     1>ConsoleApplication16.cpp(76): error C2653: 'cv' : is not a class or namespace name
+     1>ConsoleApplication16.cpp(76): error C2065: 'contours' : undeclared identifier
+     1>ConsoleApplication16.cpp(76): error C2065: 'approx' : undeclared identifier
+     1>ConsoleApplication16.cpp(76): error C3861: 'fabs': identifier not found
+     1>ConsoleApplication16.cpp(76): error C3861: 'contourArea': identifier not found
+     1>ConsoleApplication16.cpp(76): error C3861: 'isContourConvex': identifier not found
+     1>ConsoleApplication16.cpp(79): error C2065: 'approx' : undeclared identifier
+     1>ConsoleApplication16.cpp(79): error C2228: left of '.size' must have class/struct/union
+                 type is 'unknown-type'
+     1>ConsoleApplication16.cpp(81): error C2065: 'dst' : undeclared identifier
+     1>ConsoleApplication16.cpp(81): error C2065: 'contours' : undeclared identifier
+     1>ConsoleApplication16.cpp(81): error C3861: 'setLabel': identifier not found
+     1>ConsoleApplication16.cpp(83): error C2065: 'approx' : undeclared identifier
+     1>ConsoleApplication16.cpp(83): error C2228: left of '.size' must have class/struct/union
+                 type is 'unknown-type'
+     1>ConsoleApplication16.cpp(86): error C2065: 'approx' : undeclared identifier
+     1>ConsoleApplication16.cpp(86): error C2228: left of '.size' must have class/struct/union
+                 type is 'unknown-type'
+     1>ConsoleApplication16.cpp(89): error C2039: 'vector' : is not a member of 'std'
+     1>ConsoleApplication16.cpp(89): error C2065: 'vector' : undeclared identifier
+     1>ConsoleApplication16.cpp(89): error C2062: type 'double' unexpected
+     1>ConsoleApplication16.cpp(91): error C2065: 'cos' : undeclared identifier
+     1>ConsoleApplication16.cpp(91): error C2228: left of '.push_back' must have class/struct/union
+                 type is 'unknown-type'
+     1>ConsoleApplication16.cpp(91): error C2065: 'approx' : undeclared identifier
+     1>ConsoleApplication16.cpp(91): error C2064: term does not evaluate to a function taking 1 arguments
+     1>ConsoleApplication16.cpp(94): error C2039: 'sort' : is not a member of 'std'
+     1>ConsoleApplication16.cpp(94): error C2065: 'cos' : undeclared identifier
+     1>ConsoleApplication16.cpp(94): error C2228: left of '.begin' must have class/struct/union
+                 type is 'unknown-type'
+     1>ConsoleApplication16.cpp(94): error C2228: left of '.end' must have class/struct/union
+     1>ConsoleApplication16.cpp(94): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "C:\Users\okul\Desktop\odeee\sinifmantigi\ConsoleApplication17\ConsoleApplication16\ConsoleApplication16.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.08
