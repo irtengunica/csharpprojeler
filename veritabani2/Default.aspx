@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
-<%@ Register src="BasicControls/wuc_listele.ascx" tagname="wuc_listele" tagprefix="uc1" %>
+<%@ Register src="BasicControls/wuc_selectkullanimi.ascx" tagname="wuc_selectkullanimi" tagprefix="uc1" %>
 
 <!DOCTYPE html>
 
@@ -10,11 +10,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-        <uc1:wuc_listele ID="wuc_listele1" runat="server" />
-    
-    </div>
+        <uc1:wuc_selectkullanimi ID="wuc_selectkullanimi1" runat="server" />
     </form>
 </body>
 </html>
