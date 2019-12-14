@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Fruits Website</title>
+    <meta charset="utf-8"/>
+    <link rel="StyleSheet" href="MainStyle.css"/> 
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+ 
+        <header>
+        <h1>Fresh Fruits</h1>
+        <h2>For fresh and free fruits</h2>
+        <h4>Fresh Fruits at any Time<br />
+            
+            <asp:Label ID="lblUser" runat="server"></asp:Label>
+            
+        </h4>
+    </header>
+    <div id="container">
+        <nav>
+            <h3>Main Menu</h3>
+            <a href="Default.aspx">Home</a>
+            <% 
+                if (Request.Cookies["login"] != null)
+                    Response.Write("<a href='logout.aspx'>Logout</a>");
+                else
+                    Response.Write("<a href='register.aspx'>Register</a> <a href='login.aspx'>Login</a>");
+             %>
+            <a href="FruitsList.aspx">Fruits</a>
+            <a href="Offers.aspx">Offers</a>
+        </nav>
+        <section>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </section>
+        <aside>
+            <h2>Important Information</h2>
+            <a id="hrefimg" runat="server" href="">
+            <asp:Image ID="img" runat="server" Width="100px" Height="100px"/></a>
+            <p>
+                <asp:Label ID="lblHealth" runat="server" Text="Label"></asp:Label></p>
+            <br />
+          
+        </aside>
+        <footer>
+            2013 &copy; fresh fruits website 
+        </footer>
+
+    </div>
+
+    </form>
+</body>
+</html>
