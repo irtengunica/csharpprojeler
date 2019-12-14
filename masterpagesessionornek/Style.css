@@ -1,0 +1,67 @@
+﻿body { 
+    padding: 0;
+    margin: 0;
+    font-family:Verdana,Arial,'Comic Sans MS';
+    font-size: 10px;
+    
+}
+#container 
+{
+    padding: 0;
+    margin: 0;
+    width: 980px;
+    height: 700px;
+    background: aquamarine;
+}
+#banner 
+{
+    padding: 0;
+    margin: 0;
+    width: 980px;
+    height: 100px;
+    background: royalblue;
+}
+#menu 
+{
+    padding: 0;
+    margin: 0;
+    width: 980px;
+    height: 30px;
+    background: thistle;
+}
+#left
+{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 500px;
+    background: coral;
+    float: left;
+}
+#content
+{
+    padding: 0;
+    margin: 0;
+    width: 580px;
+    height: 500px;
+    background: darkseagreen;
+    float: left;
+}
+#right
+{
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 500px;
+    background: deepskyblue;
+    float: left;
+}
+#footer
+{
+    padding: 0;
+    margin: 0;
+    width: 980px;
+    height: 70px;
+    background: bisque;
+    clear: both;
+}
