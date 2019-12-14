@@ -1,0 +1,63 @@
+﻿body /*sayfa genel ayarları*/ 
+{
+    margin: 0;
+    font-family: verdana;
+    font-size: 12px;
+}
+#container /*web sayfacı ana sağlayıcı*/ 
+{
+    width: 1000px;
+    height: 700px;
+    margin: 0;
+    padding: 0;  
+}
+#banner {
+    width: 1000px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background: tan;
+}
+#header {
+    width: 1000px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    background: gold;
+}
+#left {
+    width: 250px;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    background: lavenderblush;
+    float: left;
+}
+#content {
+    width: 500px;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    background: seashell;
+    float: left;/*katman yerleşimini soldan doğru yapmaya başlıyor*/
+}
+#right {
+    width: 250px;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    background: rosybrown;
+    float: left;
+}
+#footer {
+    width: 1000px;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    background: coral;
+    clear: both;
+}
+
+
+
+

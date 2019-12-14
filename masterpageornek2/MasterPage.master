@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="banner">Bu alan banner alanı</div>
+        <div id="ustmenu">
+            <asp:Menu ID="Menu1" runat="server" Height="30px" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem Text="anasayfa" Value="anasayfa"></asp:MenuItem>
+                    <asp:MenuItem Text="Resimler" Value="New Item">
+                        <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                        <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="videolar" Value="New Item">
+                        <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                        <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                    <asp:MenuItem Text="iletiism" Value="New Item"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+        </div>
+        <div id="left">Sol a<asp:Menu ID="Menu2" runat="server" Width="200px">
+            <Items>
+                <asp:MenuItem Text="anasayfa" Value="anasayfa"></asp:MenuItem>
+                <asp:MenuItem Text="Resimler" Value="New Item">
+                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="videolar" Value="New Item">
+                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                <asp:MenuItem Text="iletiism" Value="New Item"></asp:MenuItem>
+            </Items>
+            </asp:Menu>
+            <br />
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">alt bolum</div>
+    </div>
+    </form>
+</body>
+</html>

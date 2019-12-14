@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server"> 
+
+        <section id="container">
+            <header>
+                <div id="logo"></div>
+                <div id="social-media">
+                    <div class="social">
+                        <img src="img/facebook.png" /></div>
+                    <div class="social">
+                        <img src="img/twitter.png" /></div>
+                    <div class="social">
+                        <img src="img/googleplus.png" /></div>
+
+                </div>
+            </header>
+            <nav>
+                <div class="menuoge"><span><a href="Default.aspx">Anasayfa</a></span></div>
+                <div class="menuoge"><span><a href="bizedair.aspx">Bize Dair</a></span></div>
+                <div class="menuoge"><span><a href="referanslar.aspx">Referanslar</a></span></div>
+                <div class="menuoge"><span><a href="cozumler.aspx">Çözümler</a></span></div>
+                <div class="menuoge"><span><a href="iletisim.aspx">İletişim</a></span></div>
+            </nav>
+            <section id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </section>
+            <footer>
+                Sayfa bilgilendirme
+            </footer>
+        </section>
+
+    </form>
+</body>
+</html>
